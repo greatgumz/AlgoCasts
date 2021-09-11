@@ -8,6 +8,7 @@
 // chunk([1, 2, 3, 4, 5], 4) --> [[ 1, 2, 3, 4], [5]]
 // chunk([1, 2, 3, 4, 5], 10) --> [[ 1, 2, 3, 4, 5]]
 
+<<<<<<< HEAD
 function chunk(array, size) {
 	const chunked = [];
 
@@ -29,5 +30,8 @@ function chunk(array, size) {
 	// }
 	// return chunked;
 }
+=======
+function chunk(array, size) {}
+>>>>>>> feeab87936c294d647721184753b164bbf9f46d6
 
 module.exports = chunk;

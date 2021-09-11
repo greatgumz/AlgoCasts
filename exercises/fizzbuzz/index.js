@@ -12,6 +12,7 @@
 //   4
 //   buzz
 
+<<<<<<< HEAD
 function fizzBuzz(n) {
     for (let i = 1; i <= n; i++) {
         if (i % 15 === 0) {
@@ -25,5 +26,8 @@ function fizzBuzz(n) {
         }
     }
 }
+=======
+function fizzBuzz(n) {}
+>>>>>>> feeab87936c294d647721184753b164bbf9f46d6
 
 module.exports = fizzBuzz;

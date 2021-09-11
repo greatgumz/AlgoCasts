@@ -7,6 +7,7 @@
 //   vowels('Why do you ask?') --> 4
 //   vowels('Why?') --> 0
 
+<<<<<<< HEAD
 function vowels(str) {
     const matches = str.match(/[aeiou]/gi);
     return matches ? matches.length : 0;
@@ -24,3 +25,8 @@ module.exports = vowels;
 //     }
 //     return count;
 // }
+=======
+function vowels(str) {}
+
+module.exports = vowels;
+>>>>>>> feeab87936c294d647721184753b164bbf9f46d6

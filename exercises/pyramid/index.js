@@ -14,6 +14,7 @@
 //       ' ### '
 //       '#####'
 
+<<<<<<< HEAD
 function pyramid(n, row = 0, level = '') {
     if (row === n) {
         return;
@@ -53,3 +54,8 @@ module.exports = pyramid;
 //         console.log(level);
 //     }
 // }
+=======
+function pyramid(n) {}
+
+module.exports = pyramid;
+>>>>>>> feeab87936c294d647721184753b164bbf9f46d6

@@ -18,6 +18,7 @@
 //       '####'
 
 function steps(n, row = 0, stair = '') {
+<<<<<<< HEAD
 	if (n === row) {
 		return;
 	}
@@ -29,6 +30,19 @@ function steps(n, row = 0, stair = '') {
 
 	const add = stair.length <= row ? '#' : ' ';
 	steps(n, row, stair + add);
+=======
+  if (n === row) {
+    return;
+  }
+
+  if (n === stair.length) {
+    console.log(stair);
+    return steps(n, row + 1);
+  }
+
+  const add = stair.length <= row ? '#' : ' ';
+  steps(n, row, stair + add);
+>>>>>>> feeab87936c294d647721184753b164bbf9f46d6
 }
 
 module.exports = steps;

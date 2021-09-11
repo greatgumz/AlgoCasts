@@ -8,6 +8,7 @@
 //   anagrams('RAIL! SAFETY!', 'fairy tales') --> True
 //   anagrams('Hi there', 'Bye there') --> False
 
+<<<<<<< HEAD
 // function anagrams(stringA, stringB) {
 // 	return cleanString(stringA) === cleanString(stringB);
 // }
@@ -41,3 +42,8 @@ function buildCharMap(str) {
 	}
 	return charMap;
 }
+=======
+function anagrams(stringA, stringB) {}
+
+module.exports = anagrams;
+>>>>>>> feeab87936c294d647721184753b164bbf9f46d6

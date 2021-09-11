@@ -6,6 +6,7 @@
 //   reverse('hello') === 'olleh'
 //   reverse('Greetings!') === '!sgniteerG'
 
+<<<<<<< HEAD
 function reverse(str) {
     return str.split('').reverse().join('');
 }
@@ -25,3 +26,8 @@ module.exports = reverse;
 // }
 
 // reverse('asdf');
+=======
+function reverse(str) {}
+
+module.exports = reverse;
+>>>>>>> feeab87936c294d647721184753b164bbf9f46d6

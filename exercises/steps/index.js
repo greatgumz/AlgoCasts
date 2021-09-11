@@ -17,6 +17,7 @@
 //       '### '
 //       '####'
 
+<<<<<<< HEAD
 function steps(n, row = 0, stair = '') {
     if (n === row) {
         return;
@@ -48,3 +49,8 @@ module.exports = steps;
 //         console.log(stair);
 //     }
 // }
+=======
+function steps(n) {}
+
+module.exports = steps;
+>>>>>>> feeab87936c294d647721184753b164bbf9f46d6
